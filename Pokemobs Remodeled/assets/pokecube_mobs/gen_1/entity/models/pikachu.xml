@@ -14,7 +14,7 @@
   <phase duration="10" leftFront="front_left_leg" leftHind="back_left_leg" name="quadWalk" rightFront="front_right_leg" rightHind="back_right_leg"/>
   <phase type="sitting">
    <part name="body">
-    <component length="10" name="1" posOffset="0,0,0" rotOffset="45,0,0" startKey="0"/>
+    <component length="10" name="1" posOffset="0,0,0" rotOffset="0,0,0" startKey="0"/>
    </part>
    <part name="back_left_leg">
     <component length="10" name="1" posOffset="0.001,-0.03,0.08" rotOffset="45,0,0" startKey="0"/>
