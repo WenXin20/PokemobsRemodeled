@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelAnimator>
  <model>
-  <phase name="global" scale="1.0"/>
+  <phase name="global" scale="0.75"/>
   <metadata head="Head" headAxis="2" headAxis2="0" headCap="-60,60" headDir="1" headDir2="1"/>
   <customTex default="pikachu">
    <part name="pikachu_face" tex="pikachu_face"/>
