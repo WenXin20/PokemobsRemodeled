@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelAnimator>
  <model>
-  <phase name="global" scale="0.75"/>
+  <phase name="global" scale="0.65"/>
   <metadata head="Head" headAxis="2" headAxis2="0" headCap="-60,60" headDir="1" headDir2="1"/>
+  <worn id="__HAT__" parent="head" offset="0,0.2,0.2" angles="90,180,0" scale="0.9"/>
   <customTex default="pikachu">
    <part name="pikachu_face" tex="pikachu_face"/>
    <animation diffs="0,0.21875" part="pikachu_face" trigger="random:0.0025:50"/>
@@ -13,35 +14,35 @@
   <phase female="_female" male="" name="textures"/>
   <phase duration="10" leftFront="front_left_leg" leftHind="back_left_leg" name="quadWalk" rightFront="front_right_leg" rightHind="back_right_leg"/>
   <phase type="sitting">
+   <part name="head">
+    <component length="10" name="1" posOffset="0,0,0.1" rotOffset="-75,0,0" startKey="0"/>
+   </part>
    <part name="body">
-    <component length="10" name="1" posOffset="0,0,0" rotOffset="0,0,0" startKey="0"/>
+    <component length="10" name="1" posOffset="0,0,-0.124" rotOffset="90,0,0" startKey="0"/>
    </part>
    <part name="back_left_leg">
-    <component length="10" name="1" posOffset="0.001,-0.03,0.08" rotOffset="45,0,0" startKey="0"/>
+    <component length="10" name="1" posOffset="0,0.001,0.06" rotOffset="0,0,-15" startKey="0"/>
    </part>
    <part name="back_right_leg">
-    <component length="10" name="1" posOffset="-0.001,-0.03,0.08" rotOffset="45,0,0" startKey="0"/>
+    <component length="10" name="1" posOffset="0,0.001,0.06" rotOffset="0,0,15" startKey="0"/>
    </part>
    <part name="front_left_leg">
-    <component length="10" name="1" posOffset="0.001,0.0,0.02" rotOffset="-45,0,0" startKey="0"/>
+    <component length="10" name="1" posOffset="-0.05,0,0.02" rotOffset="-45,0,25" startKey="0"/>
    </part>
    <part name="front_right_leg">
-    <component length="10" name="1" posOffset="-0.001,0,0.02" rotOffset="-45,0,0" startKey="0"/>
-   </part>
-   <part name="head">
-    <component length="10" name="1" posOffset="0,0,0.1" rotOffset="-45,0,0" startKey="0"/>
+    <component length="10" name="1" posOffset="0.05,0,0.02" rotOffset="-45,0,-25" startKey="0"/>
    </part>
    <part name="left_ear">
-    <component length="10" name="1" posOffset="0,0,0" rotChange="-10,0,0" startKey="0"/>
-    <component length="10" name="2" rotChange="10,0,0" startKey="10"/>
+    <component length="10" name="down" posOffset="0,0,0" rotChange="-10,0,0" startKey="0"/>
+    <component length="10" name="up" rotChange="10,0,0" startKey="10"/>
    </part>
    <part name="right_ear">
-    <component length="10" name="1" posOffset="0,0,0" rotChange="-10,0,0" startKey="0"/>
-    <component length="10" name="2" rotChange="10,0,0" startKey="10"/>
+    <component length="10" name="down" posOffset="0,0,0" rotChange="-10,0,0" startKey="0"/>
+    <component length="10" name="up" rotChange="10,0,0" startKey="10"/>
    </part>
    <part name="tail">
-    <component length="10" name="1" posOffset="0,0,0" rotChange="60,0,0" rotOffset="-70,-0,-0" startKey="0"/>
-    <component length="10" name="2" rotChange="-60,0,0" startKey="10"/>
+    <component length="10" name="up" posOffset="0,0,0.12" rotChange="45,0,0" rotOffset="-100,-0,-0" startKey="0"/>
+    <component length="10" name="down" rotChange="-60,0,0" startKey="10"/>
    </part>
   </phase>
  </model>
