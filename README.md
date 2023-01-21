@@ -4,8 +4,8 @@
  
 # Contributors
 
- - @WenXin2
- 
+- [WenXin20](https://github.com/WenXin20)
+
 ## Contributing
  
  - All pull requests are welcome and much appreciated!
