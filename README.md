@@ -4,7 +4,7 @@
  
 # Contributors
 
- - WenXin20
+ - @WenXin20
  
 ## Contributing
  
