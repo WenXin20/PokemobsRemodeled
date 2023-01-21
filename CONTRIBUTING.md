@@ -42,4 +42,9 @@
 	- [ ] Mega Ring
 	- [ ] Necklace
 	- [ ] Ring
-
+---
+- [ ] Textures Only
+	- [X] Professor
+	- [X] Nurse
+	- [ ] NPC's
+	- [ ] GUI's
