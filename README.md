@@ -11,7 +11,7 @@
  - All pull requests are welcome and much appreciated!
  - To do so, fork this repository and create a pull request [here](https://github.com/WenXin20/PokemobsRemodeled/pulls).
  - All contributors will be provided credit.
- - See [here](/CONTRIBUTING.md) for the To Do list
+ - See [here](/CONTRIBUTING.md) for the To Do list. Please update this when contributing.
  
 ## Requirements
  
@@ -19,7 +19,10 @@
 	- [Blockbench](https://www.blockbench.net/) is recommended.
 	- Model files should be saved as the default `.bbmodel` file as seen [here](https://github.com/WenXin20/PokemobsRemodeled/tree/1.19.x/Pokemobs%20Remodeled/assets/pokecube_mobs/models/entity/pokemob)
  - The basic idle, walking, or swimming animations should be provided, but exceptions can be made.
+	- Blockbench or the Pokécube [animation gui](https://pokecube.readthedocs.io/en/latest/resourcepacks/animating_pokemobs.html#step-2-enabling-the-animation-gui) is recommended.
 	- Animations should be saved as `.xml` or in the `.bbmodel` file.
+ - Updated JEI icons should be provided. 
+	 - Create it in game by pressing the `module` button twice and then pressing the `Icons` button in the animation gui.
  - The pull request should contain images of at least one pokémob.
 
 ## License
