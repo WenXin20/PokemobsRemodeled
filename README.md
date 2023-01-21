@@ -9,12 +9,14 @@
 ## Contributing
  
  - All pull requests are welcome and much appreciated!
+ - All submissions must be your original work.
  - To do so, fork this repository and create a pull request [here](https://github.com/WenXin20/PokemobsRemodeled/compare).
  - All contributors will be provided credit.
  - See [here](/CONTRIBUTING.md) for the To Do list. Please update this when contributing.
  
 ## Requirements
  
+ - All submissions must be your original work.
  - The pokémob remodels should be in a blocky format and use pixel artwork.
 	- [Blockbench](https://www.blockbench.net/) is recommended.
 	- Model files should be saved as the default `.bbmodel` file as seen [here](https://github.com/WenXin20/PokemobsRemodeled/tree/1.19.x/Pokemobs%20Remodeled/assets/pokecube_mobs/models/entity/pokemob)
