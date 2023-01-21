@@ -5,17 +5,17 @@
   <metadata head="Head" headAxis="2" headAxis2="0" headCap="-60,60" headDir="1" headDir2="1"/>
   <worn id="__HAT__" parent="head" offset="0,0.2,0.2" angles="90,180,0" scale="0.9"/>
   <customTex default="pikachu">
-   <part name="pikachu_face" tex="pikachu_face"/>
-   <animation diffs="0,0.21875" part="pikachu_face" trigger="random:0.0025:50"/>
-   <animation diffs="0,0.4375" part="pikachu_face" trigger="random:0.0025:100"/>
-   <animation diffs="0.125,0" part="pikachu_face" trigger="random:0.005:10"/>
-   <animation diffs="0.125,0.21875" part="pikachu_face" trigger="random:0.005:10"/>
+   <part name="head" tex="pikachu_face"/>
+   <animation diffs="0,0.21875" part="head" trigger="random:0.0025:50"/>
+   <animation diffs="0,0.4375" part="head" trigger="random:0.0025:100"/>
+   <animation diffs="0.125,0" part="head" trigger="random:0.005:10"/>
+   <animation diffs="0.125,0.21875" part="head" trigger="random:0.005:10"/>
   </customTex>
   <phase female="_female" male="" name="textures"/>
   <phase duration="10" leftFront="front_left_leg" leftHind="back_left_leg" name="quadWalk" rightFront="front_right_leg" rightHind="back_right_leg"/>
   <phase type="sitting">
    <part name="head">
-    <component length="10" name="1" posOffset="0,0,0.1" rotOffset="-75,0,0" startKey="0"/>
+    <component length="10" name="1" posOffset="0,0.015,0.15" rotOffset="-75,0,0" startKey="0"/>
    </part>
    <part name="body">
     <component length="10" name="1" posOffset="0,0,-0.124" rotOffset="90,0,0" startKey="0"/>
