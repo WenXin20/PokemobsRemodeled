@@ -23,7 +23,7 @@
 	- Animations should be saved as `.xml` or in the `.bbmodel` file.
  - Updated JEI icons should be provided. 
 	 - Create it in game by pressing the `module` button twice and then pressing the `Icons` button in the animation gui.
- - Bling positions should be provided in the `.xml` file when feasible.
+ - Bling positions should be provided in the `.xml` file when feasible using the animation gui.
  - The pull request should contain images of at least one pokémob.
 
 ## License
