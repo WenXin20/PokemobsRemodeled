@@ -36,3 +36,11 @@
 
 - I, [WenXin20](https://github.com/WenXin20), reserve the right to fix, improve, or modify any files provided.
 
+## Pokecube AIO Discord
+- Join the discord if you have any questions.
+<a href="https://discord.gg/medHvkA">
+  <p align="left">
+      <img src="https://img.shields.io/discord/698598471896268931?    color=blue&label=Discord&logo=discord&logoColor=ffffff&style=for-the-badge" alt="Discord" width="191"/> 
+  </p>
+</a>
+
