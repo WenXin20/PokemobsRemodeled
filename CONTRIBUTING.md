@@ -1,8 +1,8 @@
 # TO DO
 
-- [X] Egg
+- [X] Pokémob Eggs
 - [ ] Missingno
-
+---
 - [ ] Gen 1
 	- [X] Pikachu
 - [ ] Gen 2
