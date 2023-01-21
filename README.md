@@ -14,10 +14,10 @@
 ## Requirements
  
  - The pokémob remodels should be in a blocky format and use pixel artwork.
-  - [Blockbench](https://www.blockbench.net/) is recommended.
-  - Model files should be saved as the default `bbmodel` as seen [here](https://github.com/WenXin20/PokemobsRemodeled/tree/1.19.x/Pokemobs%20Remodeled/assets/pokecube_mobs/models/entity/pokemob)
+ -- [Blockbench](https://www.blockbench.net/) is recommended.
+ -- Model files should be saved as the default `.bbmodel` file as seen [here](https://github.com/WenXin20/PokemobsRemodeled/tree/1.19.x/Pokemobs%20Remodeled/assets/pokecube_mobs/models/entity/pokemob)
  - The basic idle, walking, or swimming animations should be provided, but exceptions can be made.
-  - Animations should be saved as `.xml` or in the `bbmodel` file.
+ -- Animations should be saved as `.xml` or in the `.bbmodel` file.
  - The pull request should contain images of at least one pokémob.
 
 ## License
