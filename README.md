@@ -1,6 +1,8 @@
 # Pokemobs Remodeled
 
- A very, very WIP resource pack for Pokécube AIO to provide pokémobs with vanilla models and textures.
+ A very, very WIP resource pack for Pokécube AIO with the goal of providing pokémobs with vanilla style models and textures.
+ 
+ ![Pikachu]( https://user-images.githubusercontent.com/12000593/217722960-d31aaa06-ce92-4b1a-bdc0-c400dcc26bd1.png)
  
 # Contributors
 
