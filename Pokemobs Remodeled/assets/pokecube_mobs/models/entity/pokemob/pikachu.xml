@@ -17,14 +17,16 @@
    <part name="pikachu_facepng" tex="pikachu_face"/>
    <animation diffs="0,0.21875" part="pikachu_facepng" trigger="random:0.005:75"/>
    <animation diffs="0,0.4375" part="pikachu_facepng" trigger="random:0.01:10"/>
+   <animation diffs="0,0.4375" part="pikachu_facepng" trigger="sleeping"/>
    <part name="pikachu_mouthpng" tex="pikachu_mouth"/>
-   <animation diffs="0,0.0625" part="pikachu_mouthpng" trigger="random:0.0025:50"/>
+   <animation diffs="0,0.0625" part="pikachu_mouthpng" trigger="random:0.0025:100"/>
    <animation diffs="0,0.125" part="pikachu_mouthpng" trigger="random:0.0025:100"/>
    <animation diffs="0,0.1875" part="pikachu_mouthpng" trigger="random:0.0025:100"/>
-   <animation diffs="0,0.25" part="pikachu_mouthpng" trigger="random:0.0025:50"/>
+   <animation diffs="0,0.25" part="pikachu_mouthpng" trigger="random:0.0025:100"/>
+   <animation diffs="0,0.25" part="pikachu_mouthpng" trigger="sleeping"/>
   </customTex>
   <phase female="_female" male="" name="textures"/>
-  <phase duration="10" leftFront="front_left_leg" leftHind="back_left_leg" name="quadWalk" rightFront="front_right_leg" rightHind="back_right_leg"/>
+  <phase name="quadWalk" duration="10" leftFront="front_left_leg" leftHind="back_left_leg" rightFront="front_right_leg" rightHind="back_right_leg"/>
   <phase type="sitting">
    <part name="head">
     <component length="10" name="1" posOffset="0,0.015,0.15" rotOffset="-75,0,0" startKey="0"/>
@@ -39,10 +41,10 @@
     <component length="10" name="1" posOffset="0,0.001,0.06" rotOffset="0,0,15" startKey="0"/>
    </part>
    <part name="front_left_leg">
-    <component length="10" name="1" posOffset="-0.05,0,0.02" rotOffset="-45,0,25" startKey="0"/>
+    <component length="10" name="1" posOffset="-0.05,0,0.02" rotOffset="-45,0,-25" startKey="0"/>
    </part>
    <part name="front_right_leg">
-    <component length="10" name="1" posOffset="0.05,0,0.02" rotOffset="-45,0,-25" startKey="0"/>
+    <component length="10" name="1" posOffset="0.05,0,0.02" rotOffset="-45,0,25" startKey="0"/>
    </part>
    <part name="left_ear">
     <component length="10" name="down" posOffset="0,0,0" rotChange="-10,0,0" startKey="0"/>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.5"/>
+  <phase female="_female" male="" name="textures"/>
+  <phase name="biWalk" duration="10" armAngle="50" leftArm="left_arm" rightArm="right_arm" legAngle="20" leftLeg="left_foot" rightLeg="right_foot"/>
+  <metadata head="head" headAxis="2" headCap="-60,60" headDir="1" headDir2="1"/>
+  <customTex default="pichu">
+   <part name="pichu_facepng" tex="pichu_face"/>
+   <animation diffs="0,0.25" part="pichu_facepng" trigger="random:0.01:10"/>
+   <animation diffs="0,0.25" part="pichu_facepng" trigger="sleeping"/>
+   <part name="pichu_mouthpng" tex="pichu_mouth"/>
+   <animation diffs="0,0.09375" part="pichu_mouthpng" trigger="random:0.0025:100"/>
+   <animation diffs="0,0.1875" part="pichu_mouthpng" trigger="random:0.0025:100"/>
+   <animation diffs="0,0.28125" part="pichu_mouthpng" trigger="random:0.0025:100"/>
+   <animation diffs="0,0.375" part="pichu_mouthpng" trigger="random:0.0025:100"/>
+   <animation diffs="0,0.46875" part="pichu_mouthpng" trigger="random:0.0025:100"/>
+  </customTex>
+  <phase type="sitting">
+   <part name="head">
+    <component length="10" name="1" posOffset="0,0,0" rotOffset="0,0,0" startKey="0"/>
+   </part>
+   <part name="body">
+    <component length="10" name="1" posOffset="0,0,-0.07" rotOffset="0,0,0" startKey="0"/>
+   </part>
+   <part name="left_foot">
+    <component length="10" name="1" posOffset="0,0.13,0.06" rotOffset="90,0,0" startKey="0"/>
+   </part>
+   <part name="right_foot">
+    <component length="10" name="1" posOffset="0,0.13,0.06" rotOffset="90,0,0" startKey="0"/>
+   </part>
+   <part name="left_ear">
+    <component length="10" name="1" posOffset="0,0,0" rotChange="-10,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="10,0,0" startKey="10"/>
+   </part>
+   <part name="right_ear">
+    <component length="10" name="1" posOffset="0,0,0" rotChange="-10,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="10,0,0" startKey="10"/>
+   </part>
+   <part name="tail">
+    <component length="10" name="1" posOffset="0,0,0" rotChange="20,0,0" rotOffset="-20,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-20,0,0" startKey="10"/>
+   </part>
+  </phase>
+  <phase type="idle">
+   <part name="left_ear">
+    <component length="10" name="1" posOffset="0,0,0" rotChange="-10,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="10,0,0" startKey="10"/>
+   </part>
+   <part name="right_ear">
+    <component length="10" name="1" posOffset="0,0,0" rotChange="-10,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="10,0,0" startKey="10"/>
+   </part>
+   <part name="tail">
+    <component length="10" name="1" posOffset="0,0,0" rotChange="20,0,0" rotOffset="-20,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-20,0,0" startKey="10"/>
+   </part>
+  </phase>
+  <phase type="walking">
+   <part name="left_ear">
+    <component length="10" name="1" posOffset="0,0,0" rotOffset="25,0,0" startKey="0"/>
+   </part>
+   <part name="right_ear">
+    <component length="10" name="1" posOffset="0,0,0" rotOffset="25,0,0" startKey="0"/>
+   </part>
+   <part name="tail">
+    <component length="10" name="1" posOffset="0,0,0" rotChange="20,0,0" rotOffset="-20,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-20,0,0" startKey="10"/>
+   </part>
+  </phase>
+ </model>
+</ModelAnimator>
