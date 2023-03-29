@@ -5,6 +5,17 @@
   <phase female="_female" male="" name="textures"/>
   <phase name="biWalk" duration="10" armAngle="50" leftArm="left_arm" rightArm="right_arm" legAngle="20" leftLeg="left_foot" rightLeg="right_foot"/>
   <metadata head="head" headAxis="2" headCap="-60,60" headDir="1" headDir2="1"/>
+  <worn id="__EYE__" parent="head" offset="0,0,0.37" angles="90,180,0" scale="1"/>
+  <worn id="__HAT__" parent="head" offset="0,0,0.5" angles="-90,0,180" scale="1"/>
+  <worn id="__BACK__" parent="body" offset="0,-0.2,-0.01" angles="-90,0,180" scale="0.55"/>
+  <worn id="__NECK__" parent="body" offset="0,-0.05,0" angles="-90,0,180" scale="1"/>
+  <worn id="__WAIST__" parent="body" offset="0,0,0.25" angles="-90,0,180" scale="0.8"/>
+  <worn id="__EAR_left__" parent="left_ear" offset="-0.16,-0.01,-0.18" angles="0,-25,0" scale="1"/>
+  <worn id="__EAR_right__" parent="right_ear" offset="0.16,-0.01,-0.18" angles="0,25,0" scale="1"/>
+  <worn id="__FINGER_left__" parent="left_arm" offset="0.03,0,-0.26" angles="0,0,90" scale="1.7"/>
+  <worn id="__FINGER_right__" parent="right_arm" offset="-0.03,0,-0.26" angles="0,0,90" scale="1.7"/>
+  <worn id="__WRIST_left__" parent="left_arm" offset="0.03,0,-0.03" angles="0,0,90" scale="0.5"/>
+  <worn id="__WRIST_right__" parent="right_arm" offset="-0.03,0,-0.03" angles="0,0,90" scale="0.5"/>
   <customTex default="pichu">
    <part name="pichu_facepng" tex="pichu_face"/>
    <animation diffs="0,0.25" part="pichu_facepng" trigger="random:0.01:10"/>
