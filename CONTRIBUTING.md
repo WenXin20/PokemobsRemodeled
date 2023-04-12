@@ -4,7 +4,9 @@
 - [ ] Missingno
 ---
 - [ ] Gen 1
+	- [X] Pichu
 	- [X] Pikachu
+	- [X] Raichu
 
 - [ ] Gen 2
 
