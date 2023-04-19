@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "block/belt_front",
+		"2": "belt_side",
+		"3": "belt_front_overlay"
+	},
+	"elements": [
+		{
+			"from": [3.5, -0.5, 5.5],
+			"to": [12.5, 16.5, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 1]},
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#1"},
+				"east": {"uv": [6, 0, 10, 16], "texture": "#2"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#1"},
+				"west": {"uv": [6, 0, 10, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [3.5, -0.5, 5.4],
+			"to": [12.5, 16.5, 10.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 1]},
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "belt",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "belt_overlay",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [1]
+		}
+	]
+}
