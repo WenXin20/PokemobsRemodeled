@@ -10,7 +10,6 @@
    <part name="raichu_face_sidepng" tex="raichu_face_side"/>
    <animation diffs="0,0.15625" part="raichu_face_sidepng" trigger="random:0.0025:100"/>
    <part name="raichu_mouthpng" tex="raichu_mouth"/>
-   <animation diffs="0,0.0625" part="raichu_mouthpng" trigger="random:0.0035:200"/>
    <animation diffs="0,0.125" part="raichu_mouthpng" trigger="random:0.0025:75"/>
    <animation diffs="0,0.1875" part="raichu_mouthpng" trigger="random:0.0025:100"/>
    <animation diffs="0,0.25" part="raichu_mouthpng" trigger="random:0.0025:100"/>
