@@ -3,6 +3,21 @@
  <model>
   <phase name="global" scale="0.65"/>
   <metadata head="head" headAxis="2" headAxis2="0" headCap="-60,60" headDir="1" headDir2="1"/>
+  <customTex default="raichu">
+   <part name="raichu_facepng" tex="raichu_face"/>
+   <animation diffs="0,0.15625" part="raichu_facepng" trigger="random:0.01:10"/>
+   <animation diffs="0,0.15625" part="raichu_facepng" trigger="sleeping"/>
+   <part name="raichu_face_sidepng" tex="raichu_face_side"/>
+   <animation diffs="0,0.15625" part="raichu_face_sidepng" trigger="random:0.0025:100"/>
+   <part name="raichu_mouthpng" tex="raichu_mouth"/>
+   <animation diffs="0,0.0625" part="raichu_mouthpng" trigger="random:0.0035:200"/>
+   <animation diffs="0,0.125" part="raichu_mouthpng" trigger="random:0.0025:75"/>
+   <animation diffs="0,0.1875" part="raichu_mouthpng" trigger="random:0.0025:100"/>
+   <animation diffs="0,0.25" part="raichu_mouthpng" trigger="random:0.0025:100"/>
+   <animation diffs="0,0.3125" part="raichu_mouthpng" trigger="random:0.0025:75"/>
+   <animation diffs="0,0.375" part="raichu_mouthpng" trigger="random:0.0025:100"/>
+   <animation diffs="0,0.3125" part="raichu_mouthpng" trigger="sleeping"/>
+  </customTex>
   <phase female="_female" male="" name="textures"/>
   <phase name="quadWalk" duration="10" leftFront="front_left_leg" leftHind="back_left_leg" rightFront="front_right_leg" rightHind="back_right_leg"/>
   <phase type="sitting">
